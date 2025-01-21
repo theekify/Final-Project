@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Poppins , Roboto;
+    font-family:Poppins , Roboto;
 }
 
 body {
@@ -36,6 +36,19 @@ h1 {
     color: #666;
     margin-bottom: 24px;
 }
+.role-dropdown {
+
+    width: 100%;
+    padding: 12px;    
+    background-color: #d2c2cd; 
+    color: #6b1950;
+    border: 0.5px solid #6b1950;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: poppins;
+    font-size: 14px;
+    cursor: pointer;
+}
 
 .input-group {
     margin-bottom: 16px;
@@ -50,6 +63,7 @@ input {
     outline: none;
     transition: border-color 0.3s;
 }
+
 
 input:focus {
     border-color: #4834d4;
