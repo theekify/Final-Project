@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Training & Certification</title>
+    <link rel="stylesheet" href="training.css">
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="user-management.html">User Management</a></li>
+            <li><a href="worker-registration.html">Worker Registration</a></li>
+            <li><a href="training.html">Training & Certification</a></li>
+            <li><a href="payments.html">Payment Transactions</a></li>
+            <li><a href="reports.html">Reports</a></li>
+            <li><a href="settings.html">System Settings</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <h1>Training & Certification</h1>
+        <button onclick="openAddCourseModal()">Add New Training Course</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Course ID</th>
+                    <th>Course Name</th>
+                    <th>Duration</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>Safety Training</td>
+                    <td>2 Weeks</td>
+                    <td>Ongoing</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>Language Course</td>
+                    <td>1 Month</td>
+                    <td>Upcoming</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function openAddCourseModal() {
+            alert("Open Add Course Form Here");
+        }
+    </script>
+</body>
+</html>
